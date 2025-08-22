@@ -1087,3 +1087,26 @@ body {
     margin: auto !important;
     font-weight: 500 !important;
 }
+/* ==================== FORÇAR EXIBIÇÃO DO SOBRE MIM ==================== */
+.about-text {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 1.1rem !important;
+    color: var(--text-secondary) !important;
+    line-height: 1.8 !important;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem !important;
+    color: var(--text-secondary) !important;
+}
+
+.about-content {
+    display: flex !important;
+    gap: 60px !important;
+    align-items: center !important;
+    margin-top: 40px !important;
+}
+
