@@ -1,0 +1,31 @@
+{
+  "profile": {
+    "name": "Silvio",
+    "title": "Full Stack Developer",
+    "bio": "Desenvolvedor Full Stack apaixonado por criar soluções inovadoras."
+  },
+  "projects": [
+    {
+      "title": "Sistema de Gestão",
+      "description": "Plataforma web com autenticação e painel administrativo.",
+      "image": "/static/images/previews/projeto1.png",
+      "tags": ["Python", "React", "Flask"],
+      "code": "def create_app():\n    app = Flask(__name__)\n    return app"
+    },
+    {
+      "title": "E-commerce Moderno",
+      "description": "Loja online com carrinho e pagamento integrado.",
+      "image": "/static/images/previews/projeto2.png",
+      "tags": ["Node.js", "MongoDB", "Stripe"],
+      "code": "app.post('/checkout', (req, res) => {\n  const session = await stripe.checkout..."
+    }
+  ],
+  "experience": [
+    {
+      "position": "Desenvolvedor Full Stack",
+      "company": "TechCorp",
+      "period": "2022 - Presente",
+      "description": "Desenvolvimento de APIs e interfaces modernas."
+    }
+  ]
+}
